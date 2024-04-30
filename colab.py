@@ -180,12 +180,6 @@ async def calc_lpLockedPct(
 			if is_new_pool:
 				print(f"New Locked %: {lpLockedPct_}")
 
-
-
-	except Exception as e:
-		print(f"Exception (calc_lpLockedPct): {e}")
-		pass
-
 	return lpLockedPct_
 
 
@@ -407,14 +401,10 @@ async def parsePoolInfoFromLpTransaction(
 		# find baseDecimals (it varies)
 		if preBalances[0].mint == baseMint:
 			baseDecimals = preBalances[0].ui_token_amount.decimals
-			bse = r.set('baseDecimals', baseDecimals)
 			quoteDecimals = preBalances[1].ui_token_amount.decimals
-			qted = r.set('quoteDecimals', quoteDecimals)
 		if preBalances[1].mint == baseMint:
 			baseDecimals = preBalances[1].ui_token_amount.decimals
-			bse= r.set('baseDecimals', baseDecimals)
 			quoteDecimals = preBalances[0].ui_token_amount.decimals
-			qted = r.set('quoteDecimals', quoteDecimals)
 		else:
 			print("no match")
 	except Exception as e:
@@ -484,49 +474,7 @@ async def parsePoolInfoFromLpTransaction(
 				else:
 					pass
 			except Exception as e:
-				pass
-
-	# Get account info for market info returns (seemingly) unusable raw binary data.
-
-	marketInfo = await fetchMarketInfo(accounts[16])
-	#if at first you don't succeed try again
-	if marketInfo == "failed":
-		marketInfo = await fetchMarketInfo(accounts[16])
-	print('========================== What Parsing RAW Data looks like ======================')
-	
-	
-	print(marketInfo)
-
-	my_pools = {
-		'id': str(accounts[4]),  # NEED
-		'authority': str(accounts[5]),  # NEED
-		'baseMint': str(baseMint),  # NEED
-		'baseDecimals': str(r.get('baseDecimals')),  # NEED
-		'quoteMint': str(quoteMint),  # NEED
-		'quoteDecimals': str(r.get('quoteDecimals')),  # NEED
-		'lpMint': str(accounts[7]),  # NEED
-		'openOrders': str(accounts[6]),  # NEED
-		'targetOrders': str(accounts[13]),  # NEED
-		'baseVault': str(accounts[10]),  # NEED
-		'quoteVault': str(accounts[11]),  # NEED
-		'marketId': str(accounts[16]),  # NEED
-		'marketBaseVault': str(str(marketInfo.base_vault)),  # NEED
-		'marketQuoteVault': str(str(marketInfo.quote_vault)),  # NEED
-		'marketAuthority': str(str(marketInfo.own_address)),  # NEED ASSUME OWNER ADDRESS
-		'marketBids': str(str(marketInfo.bids)),  # NEED
-		'marketAsks': str(str(marketInfo.asks)),  # NEED
-		'marketEventQueue': str(str(marketInfo.event_queue)),  # NEED
-		'tokenProgramID': str(accounts[0]),  # NEED
-		'lpDecimals': str(r.get('lpDecimals')),  # EXTRA
-		'version': str(4),  # EXTRA
-		'programId': str(RaydiumLPV4),  # EXTRA
-		'withdrawQueue': str(r.get('withdrawQueue')),  # EXTRA
-		'marketVersion': str(3),  # EXTRA
-		'marketProgramId': str(accounts[15]),  # EXTRA
-		'openTime': str(open_time_int), # WANT TO KNOW FOR FUTURE MINT
-		'lpReserve': str(lpReserve_)  # WANT TO KNOW FOR lpLockedPct
-	}
-	
+				pass	
 
 
 	liquidity_locked_pct = r.get('lpLockedPct')
@@ -542,22 +490,20 @@ async def parsePoolInfoFromLpTransaction(
 	
 	cprint(f"lpLockedPct: {liquidity_locked_pct}", 'red', 'on_white')
 	# this 
-	
-	marketInfo3 = r.get('marketInfo')
-	if marketInfo3 == "failed":
-		marketInfo3 = await fetchMarketInfo(accounts[16])
+	marketInfo = await fetchMarketInfo(accounts[16])
+	while marketInfo == 'failed':
+		marketInfo = await fetchMarketInfo(accounts[16])
 
-	print(r.get('marketInfo'))
+	
 	print('========================== What Parsing RAW Data looks like ======================')
-	print(marketInfo3)
 
 	my_pools = {
 			'id': str(accounts[4]),  # NEED
 			'authority': str(accounts[5]),  # NEED
 			'baseMint': str(baseMint),  # NEED
-			'baseDecimals': str(r.get('baseDecimals')),  # NEED
+			'baseDecimals': str(r.get('baseDecimals').decode()),  # NEED
 			'quoteMint': str(quoteMint),  # NEED
-			'quoteDecimals': str(r.get('quoteDecimals')),  # NEED
+			'quoteDecimals': str(r.get('quoteDecimals').decode()),  # NEED
 			'lpMint': str(accounts[7]),  # NEED
 			'openOrders': str(accounts[6]),  # NEED
 			'targetOrders': str(accounts[13]),  # NEED
@@ -565,15 +511,18 @@ async def parsePoolInfoFromLpTransaction(
 			'quoteVault': str(accounts[11]),  # NEED
 			'marketId': str(accounts[16]),  # NEED
 			'tokenProgramID': str(accounts[0]),  # NEED
-			'lpDecimals': str(r.get('lpDecimals')),  # EXTRA
+			'lpDecimals': str(r.get('lpDecimals').decode()),  # EXTRA
 			'version': str(4),  # EXTRA
 			'programId': str(RaydiumLPV4),  # EXTRA
-			'withdrawQueue': str(r.get('withdrawQueue')),  # EXTRA
+			'withdrawQueue': str(r.get('withdrawQueue').decode()),  # EXTRA
 			'marketVersion': str(3),  # EXTRA
 			'marketProgramId': str(accounts[15]),  # EXTRA
-			'openTime': str(r.get('openTime')), # WANT TO KNOW FOR FUTURE MINT
-			'lpReserve': str(r.get('lpReserve'))  # WANT TO KNOW FOR lpLockedPct
+			'openTime': str(r.get('openTime').decode()), # WANT TO KNOW FOR FUTURE MINT
+			'lpReserve': str(r.get('lpReserve').decode())  # WANT TO KNOW FOR lpLockedPct
 		}
+	
+	# save my pools to redis
+	p = r.set('my_pools', json.dumps(my_pools))
 	
 	if liquidity_locked_pct > LP_LOCKED_PCT_THRESHOLD:
 		cprint("Sufficient liquidity", 'green', 'on_white')
@@ -585,13 +534,13 @@ async def parsePoolInfoFromLpTransaction(
 
 		with open(pool_key_storage, 'r+') as file:
 			file_data = json.load(file)
-			file_data.append(my_pools)
+			file_data.append(p)
 			file.seek(0)
 			json.dump(file_data, file, indent=4)
 		timestamp_ts2 = datetime.timestamp(now)
 		print(f"Saving Completed in {timestamp_ts2 - timestamp_ts1} seconds..")
 		print(
-			f"================================MY POOL KEYS:===================================\n{json.dumps(my_pools, indent=4)}")
+			f"================================MY POOL KEYS:===================================\n{json.dumps(p, indent=4)}")
 	else:
 		cprint("Insufficient liquidity", 'red', 'on_white')
 		now = datetime.now()
@@ -602,13 +551,13 @@ async def parsePoolInfoFromLpTransaction(
 
 		with open(pool_key_storage, 'r+') as file:
 			file_data = json.load(file)
-			file_data.append(my_pools)
+			file_data.append(p)
 			file.seek(0)
 			json.dump(file_data, file, indent=4)
 		timestamp_ts2 = datetime.timestamp(now)
 		print(f"Saving Completed in {timestamp_ts2 - timestamp_ts1} seconds..")
 		print(
-			f"================================MY POOL KEYS:===================================\n{json.dumps(my_pools, indent=4)}")
+			f"================================MY POOL KEYS:===================================\n{json.dumps(p, indent=4)}")
 
 		return my_pools
 
@@ -1001,16 +950,14 @@ async def get_tokens(signature: Signature, RaydiumLPV4: Pubkey) -> None:
 
 		if tokens != None:
 			cprint("Attempting to parse pool keys...", 'green', 'on_white')
-			try:
-				pool_keys = await parsePoolInfoFromLpTransaction(instruction, signature)				
-			except Exception as e:
-				print(f"Exception when calling parsePoolInfoFromLpTransaction: {e}")
+			pool_keys = await parsePoolInfoFromLpTransaction(instruction, signature)				
+	
 		
 				
 	ins = await get_instructions(transaction)
 	lp = await calc_lpLockedPct(ins, signature)
 	r.set('lpLockedPct', lp)
-	cprint(f"lpLockedPct for {lp}", 'red', 'on_white')
+	print(f"lpLockedPct: {lp}")
 
 	if pool_keys != None:		
 		open_time = int(pool_keys['openTime'])
@@ -1094,7 +1041,7 @@ async def get_tokens(signature: Signature, RaydiumLPV4: Pubkey) -> None:
 			print("Already minted")
 			print(f"Minted {current_ts - open_time} seconds ago.")
 			t_diff = current_ts - open_time
-			calc = r.get('lpLockedPct')
+			calc = r.get('lp')
 			try:
 				if t_diff < WHEN_TO_BUY:
 					print(f"Open time is less than {WHEN_TO_BUY} seconds AND {calc}% LOCKED. BUY IT!")
