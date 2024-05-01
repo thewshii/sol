@@ -121,12 +121,12 @@ async def calc_lpLockedPct(
             try:
                 if Pubkey.from_string(y.parsed['info']['mint']) == accounts[7] and y.parsed['type'] == 'initializeMint':
                     lpDecimals = y.parsed['info']['decimals']
-                    print(f"lpDecimals: {lpDecimals}")
+                    cprint(f"lpDecimals: {lpDecimals}", "green", "on_white")
                     is_new_pool = True
                 elif Pubkey.from_string(y.parsed['info']['mint']) == accounts[7] and y.parsed['type'] == 'mintTo':
                     lpReserve = y.parsed['info']['amount']
                     lpReserve_ = y.parsed['info']['amount']
-                    print(f"lpReserve: {lpReserve}")
+                    cprint(f"lpReserve: {lpReserve}", "green", "on_white")
                     #lpReserve: parseInt(lpMintInstruction.parsed.info.amount)
                 else:
                     pass
@@ -149,7 +149,7 @@ async def calc_lpLockedPct(
         accInfo = solana_client.get_account_info_json_parsed(accounts[7])
         accdata_ = accInfo.value.data
         actual_supply = accdata_.parsed['info']['supply']
-        print(f"actual_supply: {actual_supply}")
+        cprint(f"actual_supply: {actual_supply}", "red", "on_white")
     except Exception as e:
         print(f"Error parsing response: {e}")
         print(f"Response: {accInfo}")
@@ -161,19 +161,19 @@ async def calc_lpLockedPct(
     else:
         #lpReserve = float(lpReserve) / math.pow(10, int(accdata_.parsed['info']['decimals']))
         # actual_supply = float(accdata_.parsed['info']['supply']) / math.pow(10, int(accdata_.parsed['info']['decimals']))
-        print(f"reserveSupply (myCalc): {lpReserve}")
-        print(f"currentSupply (myCalc): {actual_supply}")
+        cprint(f"lpReserve supply: {lpReserve}", "yellow", "on_black")
+        cprint(f"actual_supply: {actual_supply}", "green", "on_black")
         # Calculate burn percentage
     
         actual_supply = float(actual_supply)
         lpReserve = float(lpReserve)
         burnAmt = lpReserve - actual_supply  # Token for Token burn amount
-        print(f"lplocked (myCalc): {burnAmt}")
+        cprint(f"Burn Amount: {burnAmt}", "red", "on_white")
         burnPct = (burnAmt / lpReserve) * 100  # Percentage burn calculation
 
         lpLockedPct_ = float("{:.20f}".format(burnPct))
         if is_new_pool:
-            print(f"New Locked %: {lpLockedPct_}")
+            cprint(f"New Locked %: {lpLockedPct_}", "green", "on_yellow")
 
     return lpLockedPct_
 
@@ -207,7 +207,7 @@ async def main():
         except (ProtocolError, ConnectionClosedError) as err:
             # Restart socket connection if ProtocolError: invalid status code
             logging.exception(err)  # Logging
-            print(f"Danger! Danger!", err)
+            cprint(f"danger, danger!, {err}", "red", "on_black")
             continue
         except KeyboardInterrupt:
             if websocket:
@@ -236,6 +236,7 @@ async def process_messages(websocket: SolanaWsClientProtocol,
         value = get_msg_value(msg)
         if not idx % 100:
             print(f"{idx=}")
+            cprint(f"index number - {idx}", "red", "on_cyan")
         for log in value.logs:
             if instruction not in log:
                 continue
