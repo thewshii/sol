@@ -10626,3 +10626,2232 @@ INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 
 INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: 0FjXp6yUbT8TG8r7ETwQjA==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: CfMnLgLDI6laFlnTZnbbx7d0L+U=
+DEBUG:websockets.client:< x-rpc-node: pit36
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1355
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":28047971,"id":1}' [42 bytes]
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: PdHhw0jE+uzcFBawnhNR6Q==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: rc6SzZUZlG8tOl6dcOcrcLAdGjA=
+DEBUG:websockets.client:< x-rpc-node: pit36
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1888
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":36348296,"id":1}' [42 bytes]
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: 22xObYmsYRCDBeEH9vALfg==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: cs+ogUUj2oQNUJ/iWydEJfVpfSQ=
+DEBUG:websockets.client:< x-rpc-node: pit36
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1489
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":36348296,"id":1}' [42 bytes]
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: TCZ2sASQv7WQIUN45bnwSw==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: dKZzh+5nHfoiWzebQwuSuA0TwfE=
+DEBUG:websockets.client:< x-rpc-node: pit36
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1811
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":28047971,"id":1}' [42 bytes]
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: uJR24k6Yo6mzy4VbF6LhdQ==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: YDYWq99MmpIcccTApjnGvYEb/UE=
+DEBUG:websockets.client:< x-rpc-node: pit36
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1375
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":36348296,"id":1}' [42 bytes]
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: 0uxOz+zGHpa2+EubDU+8Mw==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: Y545np3G8CvMfPV8Vm1xZnwVG1c=
+DEBUG:websockets.client:< x-rpc-node: pit36
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1574
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":36348296,"id":1}' [42 bytes]
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: wPnwhaFfmLog5goh79Jopw==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: F3el7dOz5Yx6Otd43jmUCoEZVdo=
+DEBUG:websockets.client:< x-rpc-node: pit36
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1259
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":36348296,"id":1}' [42 bytes]
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: f85N8tII6MnSJk+8rGxx+w==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: K3rIOyJJp5inPbV5ehzcWLnosOk=
+DEBUG:websockets.client:< x-rpc-node: pit36
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -2324
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":36348296,"id":1}' [42 bytes]
+INFO:root:32DM7dhCmomzFRxmxWrtbB4vA9DbdV4GFWbPYF77ZMJs3hgsdRMvxcVxUacjgWrbDrJnuhF4bF9nRjzM6uVGcsaU
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714522638, init_pc_amount: 100000000000, init_coin_amount: 999000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001EB81F00C70>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 3EQzQceYAAS96ahjEdnebPccZUsTCkdif1yB2cuKwVoR, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 9Gykx4R9Nrg8PL6NoQBZJdQJ7NS1M34rBwx4eSVWgCSS
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:32DM7dhCmomzFRxmxWrtbB4vA9DbdV4GFWbPYF77ZMJs3hgsdRMvxcVxUacjgWrbDrJnuhF4bF9nRjzM6uVGcsaU
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714522638, init_pc_amount: 100000000000, init_coin_amount: 999000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001EB81F005F0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 3EQzQceYAAS96ahjEdnebPccZUsTCkdif1yB2cuKwVoR, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 9Gykx4R9Nrg8PL6NoQBZJdQJ7NS1M34rBwx4eSVWgCSS
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 192, in main
+    # Change level debugging to INFO
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 235, in process_messages
+    instruction: str) -> AsyncIterator[Signature]:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+INFO:root:SuDBja6UnBC7GBuzGPQRG8w72vHG4HJ3PdicAoucEGDBLTLFEqv2kxpswgEFDbyyPSTAY8vBXGbLU6JDe5m1Z5X
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714522786, init_pc_amount: 4000000000, init_coin_amount: 900000000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001EB81F01FF0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 7Mj8faMw52px3GkVYZj8pkez5BYu5ZyUKfdKs3gBzbuV, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 7woDdo1ixvRG9UnsLVcGxDpoyMufCi9pkq4be4Vp2kHy
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:SuDBja6UnBC7GBuzGPQRG8w72vHG4HJ3PdicAoucEGDBLTLFEqv2kxpswgEFDbyyPSTAY8vBXGbLU6JDe5m1Z5X
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714522786, init_pc_amount: 4000000000, init_coin_amount: 900000000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001EB8026CA00>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 7Mj8faMw52px3GkVYZj8pkez5BYu5ZyUKfdKs3gBzbuV, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 7woDdo1ixvRG9UnsLVcGxDpoyMufCi9pkq4be4Vp2kHy
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 192, in main
+    # Change level debugging to INFO
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 235, in process_messages
+    instruction: str) -> AsyncIterator[Signature]:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+INFO:root:nGdv2SqwMJEn3FcSqXUU9YEWRpwrVUMp3EWbzXyi8c5fDVc4Nzow7o9oPEDt1AmzAKhyqx72gLqCAo5CPUPmyqj
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714523328, init_pc_amount: 2000000000, init_coin_amount: 504506193061190 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001EB803BBED0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: BA5G7y1D5K1bCxzWG6YaWe32fd6yLxWd89k9RT2dW5ys, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 7pZfS4hpwyYK6pWmrSFi6835Rcopd5dErh55e7bkcyWC
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:uy2tuFZ1USbxSRj4KPoSJQXu6n9fkb1tKEYTRpStQdZL1QTUKuokg7zE8pdvQ7ojPdFraSwLfpkJRcgV9QSyngi
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714523221, init_pc_amount: 4000000000, init_coin_amount: 123000000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001EB80BB93C0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: F4orxbDvyAjRHgt2q36frNvwbhb4nVQA2c9RbcgNNgjc, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: Bwv6j6FTsuUJDMrtMcXBBN4Yt1bQ7shXSwTe2udwr7K
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:websockets.client:data transfer failed
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 959, in transfer_data
+    message = await self.read_message()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1029, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1104, in read_data_frame
+    frame = await self.read_frame(max_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1161, in read_frame
+    frame = await Frame.read(
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\framing.py", line 98, in read
+    data = await reader(length)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 752, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 545, in _wait_for_data
+    await self._waiter
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 803, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 462, in finish_socket_func
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 121] The semaphore timeout period has expired
+ERROR:root:no close frame received or sent
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 959, in transfer_data
+    message = await self.read_message()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1029, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1104, in read_data_frame
+    frame = await self.read_frame(max_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1161, in read_frame
+    frame = await Frame.read(
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\framing.py", line 98, in read
+    data = await reader(length)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 752, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 545, in _wait_for_data
+    await self._waiter
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 803, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 462, in finish_socket_func
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 121] The semaphore timeout period has expired
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 192, in main
+    # Change level debugging to INFO
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 235, in process_messages
+    instruction: str) -> AsyncIterator[Signature]:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 935, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+INFO:websockets.client:! connect failed; reconnecting in 0.7 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+INFO:websockets.client:! connect failed again; retrying in 3 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+INFO:websockets.client:! connect failed again; retrying in 5 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+INFO:websockets.client:! connect failed again; retrying in 8 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+INFO:websockets.client:! connect failed again; retrying in 13 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+INFO:websockets.client:! connect failed again; retrying in 21 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+INFO:websockets.client:! connect failed again; retrying in 34 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+INFO:websockets.client:! connect failed again; retrying in 55 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+INFO:websockets.client:! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+INFO:websockets.client:! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+INFO:websockets.client:! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+INFO:websockets.client:! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+INFO:websockets.client:! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: heyF977o3saqIBDgFHjwkw==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: hqmaeBqujyuHUvJ99iaZU9sAz4Y=
+DEBUG:websockets.client:< x-rpc-node: pit36
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1480
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":28047971,"id":1}' [42 bytes]
+INFO:root:361vrwxMxMBaSTpVjpbKo2sjBB5qNQpckD57MikVPJuroRMwPkntuYKjYDuQFx66pfb6YYAd5VT2AekFBX69mfCo
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714534565, init_pc_amount: 2930000000000, init_coin_amount: 9999999999000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x0000024F73700D40>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 65LinmqiJN1AyNUbZRDoGfu6wGQTtfp9FMX81ZRSfZfu, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 5dhecMbLztt5nikEKWpwyuBuG8Dtr2vfS2xDERfs8kyc
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:361vrwxMxMBaSTpVjpbKo2sjBB5qNQpckD57MikVPJuroRMwPkntuYKjYDuQFx66pfb6YYAd5VT2AekFBX69mfCo
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714534565, init_pc_amount: 2930000000000, init_coin_amount: 9999999999000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x0000024F733A0860>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 65LinmqiJN1AyNUbZRDoGfu6wGQTtfp9FMX81ZRSfZfu, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 5dhecMbLztt5nikEKWpwyuBuG8Dtr2vfS2xDERfs8kyc
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 237, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task cancelling name='Task-7' coro=<WebSocketCommonProtocol.close_connection() running at C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py:1312> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py:922, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py:767, shield.<locals>._inner_done_callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py:905]>
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task cancelling name='Task-8' coro=<<async_generator_athrow without __name__>()> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py:922, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py:767]>
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: aDTZUFqHH9EmZA4v/yiNNg==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: Xmsfh8qFY6IUQ/jmnYav5kNZXgw=
+DEBUG:websockets.client:< x-rpc-node: pit36
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1316
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":36348296,"id":1}' [42 bytes]
+INFO:root:2TSKmfPfbQV2WxguSE6FNfWza2e8U8MRyvHfFpcV8aLhhgbpXmA4zDE66NGtgkTmDU8HNb3Uq7saBimj2ZCTEwwh
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714534817, init_pc_amount: 420000000000, init_coin_amount: 9900000000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001F1BD400D40>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: CCLFA42TEJ5rNU9wp6qzy1AYHB9QDWfg3Gz2TVCFZvth, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: BTKb2mz6FoJ5MXjK9a59zBvjgbMNzWGatq9bM6EyhDwq
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:aVfvNkFnZj6CphGHC4VyrJimQ59JZbiuxvJJ2i69GULNPpLsGFf2FX1HJrmiA7bybYt2Pja4bZfomSELWTKtdke
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714535175, init_pc_amount: 5000000000, init_coin_amount: 100000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:'NoneType' object has no attribute 'transaction'
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 197, in main
+    await get_tokens(signature,
+  File "C:\Users\conta\Downloads\sol\pow.py", line 888, in get_tokens
+    raw_transactions.write(f"signature: {signature}\n")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\pow.py", line 531, in get_instructions
+    transaction: GetTransactionResp
+     ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'transaction'
+INFO:root:sleep for 5 seconds and try again
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: uWqSPybkuujhgONC97/J4Q==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: sYJ/8GllApnxsSOnSzxIuicqWog=
+DEBUG:websockets.client:< x-rpc-node: pit36
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1797
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":36348296,"id":1}' [42 bytes]
+INFO:root:3VjsWiwK84bkGR2gcJRskA9zPdY3AujJn2J12HJSrY3x84Fq7mzWCQjSeMRRi7X34HWe5yZQ7bRt3MgJSHcUqxti
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714535297, init_pc_amount: 6000000000, init_coin_amount: 10000000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002433E800C70>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: GHGGG78qCAf3jbJuBuyR1cPm8bo49s258V8CWzWrNwuS, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 5mgkhkRA4bYA6keXeHtRne8oneFRVxTHcnVJnAsGQntX
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:3VjsWiwK84bkGR2gcJRskA9zPdY3AujJn2J12HJSrY3x84Fq7mzWCQjSeMRRi7X34HWe5yZQ7bRt3MgJSHcUqxti
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714535297, init_pc_amount: 6000000000, init_coin_amount: 10000000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002433E498860>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: GHGGG78qCAf3jbJuBuyR1cPm8bo49s258V8CWzWrNwuS, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 5mgkhkRA4bYA6keXeHtRne8oneFRVxTHcnVJnAsGQntX
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 237, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+INFO:root:4jMm12iupknHe6NVNjwA3ePQ4abGnRfDgjvdy99qvPqfeJYp7N3C61V7gMj3BYL4DHAR1VFiiWZWGXQEjGNFmNeS
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714535397, init_pc_amount: 5000000000, init_coin_amount: 100000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002433E801BE0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 4CwYEgfzaSXFMg5HfsmWf8EsghHsqiErRmX5DXmCpNHU, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: FPLdCMWhWkqHj2AG44rVGUUss4fvK9zwUmdN9fQUuoZ3
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:4jMm12iupknHe6NVNjwA3ePQ4abGnRfDgjvdy99qvPqfeJYp7N3C61V7gMj3BYL4DHAR1VFiiWZWGXQEjGNFmNeS
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714535397, init_pc_amount: 5000000000, init_coin_amount: 100000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002433E498860>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 4CwYEgfzaSXFMg5HfsmWf8EsghHsqiErRmX5DXmCpNHU, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: FPLdCMWhWkqHj2AG44rVGUUss4fvK9zwUmdN9fQUuoZ3
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 237, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+INFO:root:2pXowTJmQzJq2KqqyhDydoPk7LDc6VFzPhaf2CTGQiLBh5NDxpzEgauvXvWYbQjqk2NqsQUxDX3PLYE2i4p2WhPo
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714535904, init_pc_amount: 10000000000, init_coin_amount: 200000000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002433E801A40>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: GVBMEEFYu8RR6dyBxxv85ToRk7sNYUiVYoLTJ5jigxLw, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 9biEQuy8VFBd3GatVZBgHHp3U2QxKmCg1btKnqRyJ3q3
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:DYSE6DAMhQMsNKeya1LNMGBUCdxVSBDwMTNe4F8qGQdRq3XSd9i5xSpYub8kZ2hUppxiTT99TDS9azGxxEKB6wE
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714535899, init_pc_amount: 50000000000, init_coin_amount: 525000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002433BEBFED0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: Mao8U4dD6F8oW6TcQKfC5sVmDtcYDUsPsDSjKMTfVJe, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: DjVKtGmnvRLVrWikmnfggBGXv33PZx5wWPzuH5iirUxw
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:DYSE6DAMhQMsNKeya1LNMGBUCdxVSBDwMTNe4F8qGQdRq3XSd9i5xSpYub8kZ2hUppxiTT99TDS9azGxxEKB6wE
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714535899, init_pc_amount: 50000000000, init_coin_amount: 525000000000000 }
+INFO:root:i=2
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002433BE1AB50>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: Mao8U4dD6F8oW6TcQKfC5sVmDtcYDUsPsDSjKMTfVJe, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: DjVKtGmnvRLVrWikmnfggBGXv33PZx5wWPzuH5iirUxw
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 237, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+INFO:root:4xa2yJGZkb3dD1Fr2XDvHpftnZkr9TGFuBAn1XDQ9CmsGWNfYkUvWrDbJZigEgzZfjqYijcsTHDxLFYtHMDBYgRh
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714536029, init_pc_amount: 480000000000, init_coin_amount: 9900000000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002433BEBFED0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: YLyMNEBPHTqzWAVL1mVuzvJxWmn8ySPZonis8xnTsP6, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: A8rpKQJG7pLh2Pp57xjHZbfxHSkQfytSbMUuWz4V8ay7
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:4xa2yJGZkb3dD1Fr2XDvHpftnZkr9TGFuBAn1XDQ9CmsGWNfYkUvWrDbJZigEgzZfjqYijcsTHDxLFYtHMDBYgRh
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714536029, init_pc_amount: 480000000000, init_coin_amount: 9900000000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002433C064450>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: YLyMNEBPHTqzWAVL1mVuzvJxWmn8ySPZonis8xnTsP6, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: A8rpKQJG7pLh2Pp57xjHZbfxHSkQfytSbMUuWz4V8ay7
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: UpqE/9PyYDqkW0cv6yo00g==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: ziHTV5Co9R4T1yevQBk6Au+uu3s=
+DEBUG:websockets.client:< x-rpc-node: pit36
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1399
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":36348296,"id":1}' [42 bytes]
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:3nk6QWkNooe3PdXUV34WXpDdUr9diiKJ7gRGEGufAyaLrjkXqk622BcyAUEojmvJjviCTSWMe7xHc3cNgJHADcc3
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714536592, init_pc_amount: 28500000000, init_coin_amount: 600000000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001CF73400D40>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 5mXL4MPYzSgbKe74Ufpw3xgxtzPmch54wSdYUR4dxZSi, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: DFrLbUzVptYLjA5Js2pg7smuCKjFzEav6JmcARFqHY29
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:3nk6QWkNooe3PdXUV34WXpDdUr9diiKJ7gRGEGufAyaLrjkXqk622BcyAUEojmvJjviCTSWMe7xHc3cNgJHADcc3
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714536592, init_pc_amount: 28500000000, init_coin_amount: 600000000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001CF73090860>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 5mXL4MPYzSgbKe74Ufpw3xgxtzPmch54wSdYUR4dxZSi, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: DFrLbUzVptYLjA5Js2pg7smuCKjFzEav6JmcARFqHY29
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 238, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+INFO:root:5v2uTm5r8JEtEAL8SgJzT8JyP3NVrKgSA2WNVmjnwV3UNDGqYYU51BfsPwnaJ6WQfdBhzAfXXV2t9k8hisScYUjC
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714536804, init_pc_amount: 9000000000, init_coin_amount: 955555555000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001CF73402190>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 8bpeG8pnVAz2SYBifeY4ZTfVRen21b5QAEtBY1Sy6cA3, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 4ywTompZtya5UniGFsvZv3xr2BJQc5Dpi77WYY8JC1bm
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:4xzCrSc3oTdMD4d2Z9kaFTHHZ8gupvhmgWHvMBvEdoA13KSAbhaiuMdfVhuri25GJVrGpUdxDbMCz9zoQn94iiT3
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714537102, init_pc_amount: 5000000000, init_coin_amount: 1000000000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001CF73402810>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 3ypkwNt22FxqF8J4BrFvFC8ybsa4QJKf3ejC34J4jmZZ, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 4naXkG2FhaP4eRTUUw2bMqsb5DvZ55Gh8C3CfiU2Dk9p
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:4xzCrSc3oTdMD4d2Z9kaFTHHZ8gupvhmgWHvMBvEdoA13KSAbhaiuMdfVhuri25GJVrGpUdxDbMCz9zoQn94iiT3
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714537102, init_pc_amount: 5000000000, init_coin_amount: 1000000000000000000 }
+INFO:root:i=2
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001CF73402190>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 3ypkwNt22FxqF8J4BrFvFC8ybsa4QJKf3ejC34J4jmZZ, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 4naXkG2FhaP4eRTUUw2bMqsb5DvZ55Gh8C3CfiU2Dk9p
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 238, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+INFO:root:4NE7kuoiPix9TH1AqHD5w5QQK6cR5FTTThQoJyuyCxVnPZsmVLrLCeXFzPeSxQS1bPexQjM4KNAnKQzLjjzFcE4D
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714537394, init_pc_amount: 5000000000, init_coin_amount: 890000000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001CF70C176B0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: FN5PxnqvWS5By8APK7Z7NPCCvwR5eZ3rW5UvXSWtfTdB, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: va9Rv6uVwye4UKn8S3NGDex31pkSy4fAQrrXyMreF5Q
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:5eCXKAxyad1Kh7UpenWDHZSr7QDwAur34z6XzNCnqby3LmhMsYVA5LHhSZfHHou8GiZXVNe17vzx1PS2cGpv5gJg
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714537461, init_pc_amount: 340000000000, init_coin_amount: 4500000000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001CF70D64450>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 34DAHsoE8eNnM2mzWyxjSbamsuRGZu6LmDR1FQH5RhBb, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: DAkoa3bbsqj2PP2mo8ZqdtAJ3PgDZrcQq9ZY6xti7BCU
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:AyMsnUtsDNtsr3AbYQqFTQBGxzwScuy2bXfZ9DXcfHx4wZ1ThdwiE8QQDkFW6c2RSzYrGAC5v9EYjo6kEzqQ1zh
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714537507, init_pc_amount: 490000000000, init_coin_amount: 9900000000000000000 }
+INFO:root:i=2
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001CF70D64450>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 9sHU7mh8fW3MVYKCe5m1Q7vCqeU1HoDyVMLjAhDYd9Fy, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 93L3HJoZnCsVSqtsZFzgeNd1uzvukBySHxCzv5GfTdAg
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:dRGcC5Fg9wRjhZD9d5vxucPvq2FCw35XRtU2q3Z8nS9Hg8HvFEL6ELni5Tvmq4JoUpJRQ9rY3ZDQjeBqo6ENS4S
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714537626, init_pc_amount: 100000000000, init_coin_amount: 999000000000000 }
+INFO:root:i=3
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001CF708C7850>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 2jCS5dju1M1nbJqWHgq4Y2mp33CENCS2ipvQ7BbfENCz, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 3oQ56mMmhHQwwJyGAxLXpQZ545hho5QZWPfqrE5HGhY2
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:dRGcC5Fg9wRjhZD9d5vxucPvq2FCw35XRtU2q3Z8nS9Hg8HvFEL6ELni5Tvmq4JoUpJRQ9rY3ZDQjeBqo6ENS4S
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714537626, init_pc_amount: 100000000000, init_coin_amount: 999000000000000 }
+INFO:root:i=4
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001CF708C7850>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 2jCS5dju1M1nbJqWHgq4Y2mp33CENCS2ipvQ7BbfENCz, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 3oQ56mMmhHQwwJyGAxLXpQZ545hho5QZWPfqrE5HGhY2
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 959, in transfer_data
+    message = await self.read_message()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1029, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1104, in read_data_frame
+    frame = await self.read_frame(max_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1161, in read_frame
+    frame = await Frame.read(
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\framing.py", line 98, in read
+    data = await reader(length)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 752, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 545, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 238, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+INFO:root:2eb3E7oJ1cCf1PmHrmt6ZieGAHrAJBevJgcvzBwWGmtZKAsiREHnqVqDE5wNsF3s6KjuFoJcqXhQXAsW8fuUWRJM
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714537727, init_pc_amount: 3000000000000, init_coin_amount: 1000000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001CF711BD3C0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 9MFqSX1mcxzNrmAAckr9tibSTtoUT7MYgoXrjSVyHBLC, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 2Ev6C1kmB1k7gJSZLUuWGfzGEQbd78ANNc9sCN6FEPww
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:c4cTbMRHZr6LevDNCvFPsiyc5hXWMiRMXNFnThN9EnzBpZuJoZGpZGRnsPj8fsFPRD6qsszSK7a8iuApCa6hTua
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 0, init_pc_amount: 206900000000000, init_coin_amount: 79005359478 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001CF711BCFB0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: So11111111111111111111111111111111111111112, 
+ Token1: 4NLEDB8uLeE93o4syPmDDsGV6SPpgQsgPwzgr5Ywmooe, 
+ Pair: 13Rub16nzQfJicJSRtDMAwjm3fMwn4tbVqCVUBGLjJTS
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:c4cTbMRHZr6LevDNCvFPsiyc5hXWMiRMXNFnThN9EnzBpZuJoZGpZGRnsPj8fsFPRD6qsszSK7a8iuApCa6hTua
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 0, init_pc_amount: 206900000000000, init_coin_amount: 79005359478 }
+INFO:root:i=2
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001CF711BCFB0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: So11111111111111111111111111111111111111112, 
+ Token1: 4NLEDB8uLeE93o4syPmDDsGV6SPpgQsgPwzgr5Ywmooe, 
+ Pair: 13Rub16nzQfJicJSRtDMAwjm3fMwn4tbVqCVUBGLjJTS
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 238, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: 5qu8mK5WEEf+FCjIZPwnfw==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: 3cZbhgCFHpN3rB4wJYrlk+Ibi8Y=
+DEBUG:websockets.client:< x-rpc-node: pit36
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1486
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":36348296,"id":1}' [42 bytes]
+INFO:root:5bUdfaULgVL2Qw4Y1HMea1u9WfMtkfpjnssY8TTaytJCr31kgDfPaRnM4rau7XjaBYczMgdF3JaQBvAyFJE3t59t
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714538169, init_pc_amount: 100000000000, init_coin_amount: 999000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310F100C70>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: AMxdEEHJEUB1FCsK4Jz2X1SfoxaQCvfEzmRGoNvwW9s9, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 6wNuLJYda3jaSDxFxPVtMGFfCi1GtKHnQNYvrmQh8mWB
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:3uRe3Qw58mKTSjc1Z7aPAHHqkERSrYbyXcMAkKkKds37JSZnD18MQEdkMra7KtPuwzDNL3EpPUHkmvfWFCBgYd8T
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714539393, init_pc_amount: 420000000000, init_coin_amount: 9700000000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310DEB4860>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: Btx83jqg3Ua856vAkrviDt1euyB4hmbZ6Vta3BusxwWL, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: AFphf3dCTSWYnPTZSxMqdYX1f8aXV7XovTbL7N1YbAV3
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:3uRe3Qw58mKTSjc1Z7aPAHHqkERSrYbyXcMAkKkKds37JSZnD18MQEdkMra7KtPuwzDNL3EpPUHkmvfWFCBgYd8T
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714539393, init_pc_amount: 420000000000, init_coin_amount: 9700000000000000000 }
+INFO:root:i=2
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310F1005F0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: Btx83jqg3Ua856vAkrviDt1euyB4hmbZ6Vta3BusxwWL, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: AFphf3dCTSWYnPTZSxMqdYX1f8aXV7XovTbL7N1YbAV3
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 238, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+INFO:root:wjYjB74Fg5voCo11ZNuTXLvtsre4NoN1fwKN5FJEEF6tGBzKYcMdCLcEn3fpjgpZT5vxAdCg5KJHeyGxaxAqfxE
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714539480, init_pc_amount: 14000000000, init_coin_amount: 957555555000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310F102260>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: EJd8j5jdLjt3uAkXfFc9uAhhhtX2Razh5JGBbxJhZonJ, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 3uDGTuNUjPKDHG7djiMsndUZq9xUgRWB8CynE1dawZQP
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:wjYjB74Fg5voCo11ZNuTXLvtsre4NoN1fwKN5FJEEF6tGBzKYcMdCLcEn3fpjgpZT5vxAdCg5KJHeyGxaxAqfxE
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714539480, init_pc_amount: 14000000000, init_coin_amount: 957555555000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310F100EE0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: EJd8j5jdLjt3uAkXfFc9uAhhhtX2Razh5JGBbxJhZonJ, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 3uDGTuNUjPKDHG7djiMsndUZq9xUgRWB8CynE1dawZQP
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 238, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+ERROR:root:no close frame received or sent
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 959, in transfer_data
+    message = await self.read_message()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1029, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1104, in read_data_frame
+    frame = await self.read_frame(max_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1161, in read_frame
+    frame = await Frame.read(
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\framing.py", line 68, in read
+    data = await reader(2)
+           ^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 752, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 545, in _wait_for_data
+    await self._waiter
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 803, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 462, in finish_socket_func
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 1236] The network connection was aborted by the local system
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 238, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 935, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+INFO:websockets.client:! connect failed; reconnecting in 0.5 seconds
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 602, in __aiter__
+    async with self as protocol:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 637, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\client.py", line 654, in __await_impl_timeout__
+    async with asyncio_timeout(self.open_timeout):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+INFO:root:4VUscNf4izNtGzEmCcHs9ykfhVGGeqp4YASYcExHnWBgzCUnz28CtCCRjZaFiK2KrqXyGPuCHcXkw2Wx12n8GsyZ
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714539727, init_pc_amount: 100000000000, init_coin_amount: 999000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310F101D80>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: F7GM6CCwfA1kRKE2Thy2FpSkVAuD4jskn4KD3SSkLd6, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: FZXFykTaLa8EQ2bRKu3tWRqAjoCAApgRaAhsGSeAjP6n
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:4VUscNf4izNtGzEmCcHs9ykfhVGGeqp4YASYcExHnWBgzCUnz28CtCCRjZaFiK2KrqXyGPuCHcXkw2Wx12n8GsyZ
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714539727, init_pc_amount: 100000000000, init_coin_amount: 999000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310C66CA00>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: F7GM6CCwfA1kRKE2Thy2FpSkVAuD4jskn4KD3SSkLd6, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: FZXFykTaLa8EQ2bRKu3tWRqAjoCAApgRaAhsGSeAjP6n
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 238, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+INFO:root:5JkqPYxenwhgEgCmSdE8SbyWkFLM8Q8Xp6QqddQfvthBt9m8rzeRfB3tDkMcbHUjRLXtc9a73USunhGrdeNXKwwd
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714539817, init_pc_amount: 320000000000, init_coin_amount: 10000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310CFBCFB0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: DPhDYCJ7WXWvDC47wnZQzrLgToAsK7KvZHD7QiPpWkKQ, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 5TnctHioUTGypi8ghn3Z3MswmpVPqBKwiE3cu8qwbeu7
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:5JkqPYxenwhgEgCmSdE8SbyWkFLM8Q8Xp6QqddQfvthBt9m8rzeRfB3tDkMcbHUjRLXtc9a73USunhGrdeNXKwwd
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714539817, init_pc_amount: 320000000000, init_coin_amount: 10000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310C4C7030>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: DPhDYCJ7WXWvDC47wnZQzrLgToAsK7KvZHD7QiPpWkKQ, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 5TnctHioUTGypi8ghn3Z3MswmpVPqBKwiE3cu8qwbeu7
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 238, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+INFO:root:5spdWSQJcWmXVLFS2wtKETHfQiymZsKL7NjYw8yUEh3fJhxYpn5syRochC9QSfAkpmBKnAC4yDEaqmgCeERNynq2
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714540055, init_pc_amount: 6250000000, init_coin_amount: 350604325000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310CFBC110>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: Cy4K5nkU212es2gVcUypSQHvtchtXiZBxoTxxnxDSqhx, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: BUU3k29fp7biQ6tb7uRnRTvG5zARiXCLZytZmu18v4iT
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:2uDB4jXYkuUn4VYcniMrf7VgFB5fM1PGDo6xnzpVmtQ19KytLzdgQ2zU7HDu6WBe9SXfiocHs6xbb3gWnmkeWj58
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714540197, init_pc_amount: 320000000000, init_coin_amount: 10000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310CFBC110>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: DHd2JhkTgAzkxYeFi81j6rp7qLvnyapvz7XydRy8s1T7, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: Av9AQAQ1Nr4psmoZzZdtYDTTZUkmPBc6Aa9PheRxe3KV
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:eahM7MFwcmLdChuGjvAymnMCn9pJDLfKDkL4W2jg6FbToHfAvJ74CCyGDp3gLMDjmsfuScNFURjfD5KEobqE3Zv
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714540225, init_pc_amount: 6000000000, init_coin_amount: 910000000000000000 }
+INFO:root:i=2
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310CA27920>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: ABwsyqd9u8sjmPEyUgLwh12HTSbr1pYCGxLY26zvApAq, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 7jANBtxuor7J9ih4baGbjeSY3GwXJUKqnVUgXt353sFY
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:4cvXFCsdk17gBZUtUHnXe4aqTaWPrECoqN8AKv4mW8o76iLXacgcv5X8hxytMYAyHVRTNLXg9D9PCUcc8fonDEyL
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714540621, init_pc_amount: 2940000000000, init_coin_amount: 9999999999000000 }
+INFO:root:i=3
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310CBDF5E0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: EqpscnnXwT4eq7Ka92brGxV1m7Z8Lr5dwM57ex1hopWP, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: GToFB2PNPBQEjstBhaGbY83wH6ZDPDMu8eF2ZoPyBD98
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:4cvXFCsdk17gBZUtUHnXe4aqTaWPrECoqN8AKv4mW8o76iLXacgcv5X8hxytMYAyHVRTNLXg9D9PCUcc8fonDEyL
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714540621, init_pc_amount: 2940000000000, init_coin_amount: 9999999999000000 }
+INFO:root:i=4
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310CF0E400>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: EqpscnnXwT4eq7Ka92brGxV1m7Z8Lr5dwM57ex1hopWP, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: GToFB2PNPBQEjstBhaGbY83wH6ZDPDMu8eF2ZoPyBD98
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 194, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 238, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+INFO:root:2apmyGVn1dTAENdNP1tJ6gR7ToQzkLaoYT2Xi3BvpKkwkvoCkb2XpHRnYMR8Y5ZAzuSFSkxwcjx8FWLogGbXUPUv
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714540712, init_pc_amount: 400000000000, init_coin_amount: 9900000000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000002310D11CEE0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: C5ymrGGnFvTD6NKTJwHZ7ccaiF8wLomD4e2npnzEdjHw, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 3y8mX76Z7b39jPiC5G7By42P73VFBJ5ZJjMGERQBTtQY
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"

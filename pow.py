@@ -42,7 +42,7 @@ from construct import Bytes, Int8ul, Int64ul, Padding
 from construct import Struct as cStruct
 from construct import BitsInteger, BitsSwapped, BitStruct, Const, Flag
 import dontshare as notyour
-import cprint as cprint
+from termcolor  import cprint
 
 
 #TODO: [][][][][][][][][] CONFIGURE THIS TO YOUR OWN PERSONAL SETTINGS [][][][][][][][][]
@@ -182,11 +182,13 @@ async def main():
     """The client as an infinite asynchronous iterator:"""
     async for websocket in connect(WSS):
         try:
+            cprint("subbin to logs..", "light_red", "on_black")
             subscription_id = await subscribe_to_logs(
                 websocket,
                 RpcTransactionLogsFilterMentions(RaydiumLPV4),
                 Finalized
             )
+            cprint("subbed", "green", "on_black")
             # Change level debugging to INFO
             logging.getLogger().setLevel(logging.INFO)  # Logging
             async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
@@ -207,7 +209,8 @@ async def main():
         except (ProtocolError, ConnectionClosedError) as err:
             # Restart socket connection if ProtocolError: invalid status code
             logging.exception(err)  # Logging
-            cprint(f"danger, danger!, {err}", "red", "on_black")
+            #traceback.print_exc()
+            cprint(f"danger, danger!, {err}...", "red", "on_black")
             continue
         except KeyboardInterrupt:
             if websocket:
@@ -235,8 +238,7 @@ async def process_messages(websocket: SolanaWsClientProtocol,
     async for idx, msg in enumerate(websocket):
         value = get_msg_value(msg)
         if not idx % 100:
-            print(f"{idx=}")
-            cprint(f"index number - {idx}", "red", "on_cyan")
+            cprint(f"index number - {idx}", "black", "on_light_cyan")
         for log in value.logs:
             if instruction not in log:
                 continue
@@ -485,15 +487,18 @@ async def parsePoolInfoFromLpTransaction(
     if 'lpReserve' in my_pools and my_pools['lpReserve'] != -69:
         try:
             print(f"lpReserve set, it's {lpReserve_}.. about to calculate lpLockedPct... we need to sleep for 35 seconds")
-            print("sleeping...")
+            cprint(f"lpReserve: {lpReserve_}", "green", "on_white")
+            cprint(f"lpDecimals: {lpDecimals}", "green", "on_white")
+            cprint(f"lpMint: {accounts[7]}", "green", "on_white")
+            cprint(f"SLEEPING FOR 35 SECONDS", "red", "on_white")
             # print(f"Instruction before call: {instruction}")
             # print(f"Signature before call: {signature}")
             time.sleep(35)
-            print("awake!")
-            print("Calculating liquidity locked percentage...")
+            cprint("awake!", "green", "on_white")
+            cprint(f"calculating liquidity locked percentage...", "green", "on_white")
+            
             lpLockedPct = await calc_lpLockedPct(instruction, signature)
-            print(f"lpLockedPct calculated, it's {lpLockedPct}")
-            print("lpLockedPct calculated successfully!")
+            cprint(f"lpLockedPct: {lpLockedPct}", "green", "on_white")
         except Exception as e:
             print(f"Error calculating liquidity locked percentage: {e}")
             traceback.print_exc()
@@ -985,7 +990,7 @@ async def get_tokens(signature: Signature, RaydiumLPV4: Pubkey) -> None:
             print(f"Minted {current_ts - open_time} seconds ago.")
             t_diff = current_ts - open_time
             if t_diff < WHEN_TO_BUY and lpLockedPct > 50:
-                print(f"Open time is less than {WHEN_TO_BUY} seconds. BUY IT!")
+                cprint(f"Open time is less than {WHEN_TO_BUY} seconds. Liquidity is good. BUY!", 'green', on_color='on_yellow', attrs=['bold'])
                 # ==================BUY============================
                 # ================= BUY============================
                 await buy(solana_client, mint, payer, amount)
@@ -993,7 +998,7 @@ async def get_tokens(signature: Signature, RaydiumLPV4: Pubkey) -> None:
                 # =================BUY============================
 
             elif t_diff < WHEN_TO_BUY and lpLockedPct < 50:
-                print("Not enough liquidity locked, skipping...")
+                cprint(f"Open time is less than {WHEN_TO_BUY} seconds. But liquidity is low. DO NOT BUY!", 'red', on_color='on_yellow', attrs=['bold'])
 
 
 #Pairfinder
