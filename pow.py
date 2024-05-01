@@ -42,6 +42,7 @@ from construct import Bytes, Int8ul, Int64ul, Padding
 from construct import Struct as cStruct
 from construct import BitsInteger, BitsSwapped, BitStruct, Const, Flag
 import dontshare as notyour
+import cprint as cprint
 
 
 #TODO: [][][][][][][][][] CONFIGURE THIS TO YOUR OWN PERSONAL SETTINGS [][][][][][][][][]

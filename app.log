@@ -10470,3 +10470,159 @@ ERROR:asyncio:Task was destroyed but it is pending!
 task: <Task cancelling name='Task-4' coro=<WebSocketCommonProtocol.close_connection() running at C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py:1312> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py:922, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py:767, shield.<locals>._inner_done_callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py:905]>
 ERROR:asyncio:Task was destroyed but it is pending!
 task: <Task cancelling name='Task-5' coro=<<async_generator_athrow without __name__>()> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py:922, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py:767]>
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: 1f2QqpV7FaCkfEkYMQSZAw==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: Kr7DOXwYDvSMVmdpCy7DBTgQo2E=
+DEBUG:websockets.client:< x-rpc-node: pit37
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -1628
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 5
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":28047971,"id":1}' [42 bytes]
+INFO:root:eiPUtCukFEppGiZuoUUsvBGTHrcPqutroBPG6uQS568FncPN5edyJPFem7djFvNcJK5Bdw1zcUUPA8vgyiX3UT9
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714520716, init_pc_amount: 5000000000, init_coin_amount: 1000000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001670C700C70>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: GfXvtJ2AzgBio77QXFu9k1wNAFPWR9jmV38xxrHAHY2c, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 7rRjXtPjhEzVwzPmY6HB9jtckwRd9ipc3rQZLFTdygwX
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:4i6zPvFsDonUSJu3SeNLqBgfQKjnU1QtawCTybrUj2iCGmCgDFcxFTzSRM837kqBizmDQeu1hm7p2xJqVtgRzwbv
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714521060, init_pc_amount: 800000000000, init_coin_amount: 300000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001670C700AD0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: C3heEeb9231TvGrN1VD3qqMwN8aw2q6ZtCdkYq9ELh9y, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 3B3CfHMwVfYFCFgZUJpDvFUCAxke4Q2e5ErnQ1Gzeov3
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:2rudtkQgicnnanQiiFc3GVp8Q5FXjwK3gAz4SBUhQTPL9wN44rBfRMqqB8dMp5w3SFBF5dpVSyE2veN5oy9tguG3
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714520897, init_pc_amount: 302000000000, init_coin_amount: 5100000000000000000 }
+INFO:root:i=2
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001670C702260>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 73tZywN6uKW8xVwXZo9XNui7qwemQMyta3K1SGtiemCY, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 3gWXt9v8npb7zHZYeDP3yzvJGqQEmtWzSN66TWZ7aHNT
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:2rudtkQgicnnanQiiFc3GVp8Q5FXjwK3gAz4SBUhQTPL9wN44rBfRMqqB8dMp5w3SFBF5dpVSyE2veN5oy9tguG3
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714520897, init_pc_amount: 302000000000, init_coin_amount: 5100000000000000000 }
+INFO:root:i=3
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001670C700AD0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 73tZywN6uKW8xVwXZo9XNui7qwemQMyta3K1SGtiemCY, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: 3gWXt9v8npb7zHZYeDP3yzvJGqQEmtWzSN66TWZ7aHNT
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+ERROR:root:sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 1302, in close_connection
+    await self.transfer_data_task
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 970, in transfer_data
+    await asyncio.shield(self._put_message_waiter)
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\conta\Downloads\sol\pow.py", line 191, in main
+    async for i, signature in enumerate(process_messages(websocket, log_instruction)):  # type: ignore
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\pow.py", line 234, in process_messages
+    async for idx, msg in enumerate(websocket):
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\asyncstdlib\builtins.py", line 359, in enumerate
+    async for item in item_iter:
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\solana\rpc\websocket_api.py", line 114, in recv
+    data = await super().recv()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\conta\Downloads\sol\solbot\Lib\site-packages\websockets\legacy\protocol.py", line 944, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+INFO:root:64Lycp89D9Ln3GNEr4Qas6LKCmoCQ4cBWe2gCgxtpMY3n5CZBM94sAizw8u1AWrBo6x9bT7KRGzhexDstodWiJ55
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714521056, init_pc_amount: 45000000000, init_coin_amount: 1000000000000000000 }
+INFO:root:i=0
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001670C701CB0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: CWfV1feh4aZKTy6mYCn3UC8vDosbnn7VVBjkJL56U4Ja, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: AFopr7vFyBy5G4TwMD4Lar1VuKB3rxRYqAsdUGb7yTtv
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:wzWdaLgbseeUMZDzQmYbtHDFYwEBujr9v1UfqH9TUrFDeXzUpKsmcUpiDKhxDHX1LC28c7pR4xtbMBcbRYfsWLW
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1714521554, init_pc_amount: 200000000000, init_coin_amount: 3800000000000000000 }
+INFO:root:i=1
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x000001670C7020C0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: 2CkaAG8cZZTnUBtH9Bz1yQGx9ZH8Y89ohwRyiGiuDad1, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: ETB1dRsmYqkSDQu9wNRY63v2EJsCqcz8Gx5Yn4vPedBz
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
